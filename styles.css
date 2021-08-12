@@ -1,0 +1,237 @@
+:root {
+    --color-azul: #0075e0;
+    --color-amarillo: #ff8f47;
+    --color-navbar: #f1f1f1;
+    --color-negro: #000000;
+    --color-white: #ffffff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar {
+    background-color: var(--color-navbar);
+}
+#navegacion {
+    height: 100%;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar-brand > h1{
+    color: var(--color-azul);
+}
+h1> spam{
+    color: var(--color-amarillo);
+}
+
+.navbar-nav {
+    font-size: 20px;
+    color: var(--color-negro);
+}
+
+.btn{
+    border-radius: 15px !important;
+}
+
+.collapse {
+    justify-content: center;
+}
+
+.banner {
+    height: 105px;
+    background-color: yellow;
+    padding: 34px 5px;
+    
+    background-image: url(/assets/images/Rectangle.svg);
+}
+
+.banner > h1 {
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    text-align: right;
+}
+.banner > button {
+    font-size: 15px;
+    background-color: #e30303;
+    padding: 1px 20px;
+    color: white;
+    margin-left: 200px;
+}   
+
+@media (min-width: 1200) {
+    .banner {
+        height: 105px;
+        padding: 34px 5px;
+        
+        background-image: url(/assets/images/Rectangle.svg);
+    }
+    
+    .banner > h1 {
+        font-size: 15px;
+        margin: 0;
+        color: white;
+        text-align: right;
+    }
+    .banner > button {
+        font-size: 15px;
+        background-color: #e30303;
+        padding: 1px 20px;
+        color: white;
+        margin-left: 200px;
+    }   
+}
+
+
+
+#btnLR {
+   height: 100px;
+   margin: 3px 0;
+   padding: 30px 0;
+}
+
+/* TITULO EMPRESA */
+.tituloOrganizacion{
+    background-color: var(--color-negro);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tituloOrga{
+    color: var(--color-white);
+}
+
+/* HEADER TABLA */
+.headerTabla{
+  background-color: var(--color-navbar);
+  padding: 30px 0 30px 0;
+  /* border-color: saddlebrown !important; */
+}
+
+.inputHeaderTabla{
+  margin-right: 30px;
+}
+
+.headerTabla .mostrar {
+  padding-left: 40px !important;
+}
+
+.tablaOrganizacion{
+  padding: 0 40px 0 40px;
+  background-color: var(--color-navbar);
+  padding-bottom: 10px ;
+}
+
+.tituloPaginacion{
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-navbar);
+  margin-top: 0;
+  /* margin-right: 60px; */
+}
+
+/* .vModal{
+  width: 00px;
+} */
+
+/* @media (min-width: 576) {
+  .vModal{
+    width: 700px;
+  }
+} */
+/* FOOTER  */
+/*Contenedor Principal*/
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#242424;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  /*Centrado de los íconos de las redes sociales*/
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  /*Posicicón de los íconos*/
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    margin:0 30px;
+    padding: 10px;
+    color:#0075E0;
+    
+   
+  
+  }
+  /*Opacidad al pasar el cursor*/
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  /*Safe*/
+  .safe{
+    font-size:35px; 
+    font-weight: bold;
+    color: #0075E0;
+  }
+  
+  /*Travel*/
+  .travel{
+    font-size:35px; 
+    font-weight: bold;
+    color: #FF8F47;
+  }
+  
+  
+  /*Linea divisoria del Footer*/
+  .linea{
+    position: relative;
+    height: 2.5px;
+    left: 10;
+    margin-top: 20px;
+    text-align: center;
+    background: #FF8F47;
+  
+  }
+  /*Texto del footer*/
+  .text-footer{
+    color: #0075E0;
+    margin-left: auto;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    
+  }
+  
+  /*Quitar subrayado a los textos del footer*/
+  .f_text{
+    text-decoration: none;
+  }
+  
+  .f_text:hover{
+    color: #FF8F47;
+  }
+  
+  
+  
